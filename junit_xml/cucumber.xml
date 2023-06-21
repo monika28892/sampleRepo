@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="9.720297">
+    <testcase classname="Free CRM Create contacts" name="Free CRM Create a new contact scenario" time="5.269446">
+        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user is already on Home Page..........................................passed
+When title of Home page is Free CRM.........................................passed
+Then user hover on login button.............................................passed
+Then user clicks on login button............................................undefined
+Then user enters into login page............................................skipped
+Then user enters "monika28892@gmail.com" and "Test@123".....................skipped
+Then user clicks on login link..............................................skipped
+Then user enters into main page.............................................skipped
+Then user hover on contacts button..........................................skipped
+Then user clicks on add icon................................................skipped
+Then user moves into contact page...........................................skipped
+Then user enters contact details "Monika" and "Patel" and "QA Analyst"......skipped
+Then user clicks on Save button.............................................skipped
+Then close the browser......................................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Free CRM Create contacts" name="Free CRM Create a new contact scenario 2" time="4.450851">
+        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user is already on Home Page..........................................passed
+When title of Home page is Free CRM.........................................passed
+Then user hover on login button.............................................passed
+Then user clicks on login button............................................undefined
+Then user enters into login page............................................skipped
+Then user enters "monika28892@gmail.com" and "Test@123".....................skipped
+Then user clicks on login link..............................................skipped
+Then user enters into main page.............................................skipped
+Then user hover on contacts button..........................................skipped
+Then user clicks on add icon................................................skipped
+Then user moves into contact page...........................................skipped
+Then user enters contact details "Nilesh" and "Patel" and "QA Engineer".....skipped
+Then user clicks on Save button.............................................skipped
+Then close the browser......................................................skipped
+]]></failure>
+    </testcase>
+</testsuite>

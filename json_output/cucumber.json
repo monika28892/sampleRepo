@@ -1,0 +1,478 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: your.email@your.domain.com"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary :"
+      },
+      {
+        "line": 3,
+        "value": "#Feature: List of scenarios."
+      },
+      {
+        "line": 4,
+        "value": "#Scenario: Business rule through list of steps with arguments."
+      },
+      {
+        "line": 5,
+        "value": "#Given: Some precondition step"
+      },
+      {
+        "line": 6,
+        "value": "#When: Some key actions"
+      },
+      {
+        "line": 7,
+        "value": "#Then: To observe outcomes or validation"
+      },
+      {
+        "line": 8,
+        "value": "#And,But: To enumerate more Given,When,Then steps"
+      },
+      {
+        "line": 9,
+        "value": "#Scenario Outline: List of steps for data-driven as an Examples and \u003cplaceholder\u003e"
+      },
+      {
+        "line": 10,
+        "value": "#Examples: Container for s table"
+      },
+      {
+        "line": 11,
+        "value": "#Background: List of steps run before each of the scenarios"
+      },
+      {
+        "line": 12,
+        "value": "#\"\"\" (Doc Strings)"
+      },
+      {
+        "line": 13,
+        "value": "#| (Data Tables)"
+      },
+      {
+        "line": 14,
+        "value": "#@ (Tags/Labels):To group Scenarios"
+      },
+      {
+        "line": 15,
+        "value": "#\u003c\u003e (placeholder)"
+      },
+      {
+        "line": 16,
+        "value": "## (Comments)"
+      },
+      {
+        "line": 17,
+        "value": "#Sample Feature Definition Template"
+      }
+    ],
+    "line": 18,
+    "elements": [
+      {
+        "line": 40,
+        "name": "Free CRM Create a new contact scenario",
+        "description": "",
+        "id": "free-crm-create-contacts;free-crm-create-a-new-contact-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5108029600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user is already on Home Page",
+            "match": {
+              "location": "LoginStepDefination.user_is_already_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5665900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "title of Home page is Free CRM",
+            "match": {
+              "location": "LoginStepDefination.title_of_Home_page_is_Free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 155750500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user hover on login button",
+            "match": {
+              "location": "LoginStepDefination.user_hower_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "user clicks on login button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "user enters into login page",
+            "match": {
+              "location": "LoginStepDefination.user_enters_into_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "user enters \"monika28892@gmail.com\" and \"Test@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "monika28892@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Test@123",
+                  "offset": 41
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "user clicks on login link",
+            "match": {
+              "location": "LoginStepDefination.user_clicks_on_login_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "user enters into main page",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_main_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "user hover on contacts button",
+            "match": {
+              "location": "LoginStepDefination.user_hover_on_contacts_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "user clicks on add icon",
+            "match": {
+              "location": "LoginStepDefination.user_clicks_on_add_icon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "user moves into contact page",
+            "match": {
+              "location": "LoginStepDefination.user_enters_into_contact_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "user enters contact details \"Monika\" and \"Patel\" and \"QA Analyst\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Monika",
+                  "offset": 29
+                },
+                {
+                  "val": "Patel",
+                  "offset": 42
+                },
+                {
+                  "val": "QA Analyst",
+                  "offset": 54
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_and_and(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "user clicks on Save button",
+            "match": {
+              "location": "LoginStepDefination.user_clicks_on_Save_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "close the browser",
+            "match": {
+              "location": "LoginStepDefination.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 41,
+        "name": "Free CRM Create a new contact scenario",
+        "description": "",
+        "id": "free-crm-create-contacts;free-crm-create-a-new-contact-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4305395900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user is already on Home Page",
+            "match": {
+              "location": "LoginStepDefination.user_is_already_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3194100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "title of Home page is Free CRM",
+            "match": {
+              "location": "LoginStepDefination.title_of_Home_page_is_Free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 142261100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user hover on login button",
+            "match": {
+              "location": "LoginStepDefination.user_hower_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "user clicks on login button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "user enters into login page",
+            "match": {
+              "location": "LoginStepDefination.user_enters_into_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "user enters \"monika28892@gmail.com\" and \"Test@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "monika28892@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Test@123",
+                  "offset": 41
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "user clicks on login link",
+            "match": {
+              "location": "LoginStepDefination.user_clicks_on_login_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "user enters into main page",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_main_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "user hover on contacts button",
+            "match": {
+              "location": "LoginStepDefination.user_hover_on_contacts_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "user clicks on add icon",
+            "match": {
+              "location": "LoginStepDefination.user_clicks_on_add_icon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "user moves into contact page",
+            "match": {
+              "location": "LoginStepDefination.user_enters_into_contact_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "user enters contact details \"Nilesh\" and \"Patel\" and \"QA Engineer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nilesh",
+                  "offset": 29
+                },
+                {
+                  "val": "Patel",
+                  "offset": 42
+                },
+                {
+                  "val": "QA Engineer",
+                  "offset": 54
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_and_and(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "user clicks on Save button",
+            "match": {
+              "location": "LoginStepDefination.user_clicks_on_Save_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "close the browser",
+            "match": {
+              "location": "LoginStepDefination.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Create contacts",
+    "description": "",
+    "id": "free-crm-create-contacts",
+    "keyword": "Feature",
+    "uri": "C:/QA/SeleniumWorkSpace/CucumberFreeCRMProject/src/test/java/features/contacts.feature"
+  }
+]
